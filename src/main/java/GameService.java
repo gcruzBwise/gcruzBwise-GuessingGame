@@ -27,6 +27,7 @@ public class GameService {
      * @return true if guessNumber is equal to the secretNumber, false otherwise.
      */
     public boolean checkGuess(double guessNumber) {
-        return false;
+        return guessNumber == secretNumber?true:false;
+        //The ternary operator uses the following syntax: x = condition ? expr1 : expr2
     }
 }
